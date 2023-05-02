@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin-right: 75px;
+  margin-left: 75px;
+  margin-top: 0;
+}
+.top-bar {
+  /* display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-content: center; */
+  display: flex;
+  margin-bottom: 40px;
+  width: auto;
+  margin-left: 550px;
+}
+.title-wrapper {
+  text-align: center;
+  display: inline;
+}
+.sort-button {
+  background-color: slategray;
+  border: 1px solid white;
+  height: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 80px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.sort-button-wrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 0px;
+}
+.data-buttons-wrapper button {
+  background-color: slategray;
+  border: 1px solid white;
+  height: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: auto;
+  border-radius: 4px;
+}
+.data-buttons-wrapper {
+  padding-top: 25px;
+}
+.data {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  height: 550px;
+  width: 100%;
+  float: left;
+  margin-top: 0px;
+}
+.data-section-wrapper {
+  margin-top: 0px;
+  border-top: 2px solid grey;
+}
+.bar {
+  width: 6px;
+  margin-right: 2px;
+  background-color: darkturquoise;
+  display: inline-block;
+}
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.results-wrapper {
+  display: flex-box;
+  justify-content: center;
+  border-top: 2px solid grey;
+}
+.results {
+  width: 500px;
+  height: 540px;
+  margin-top: 0px;
+  float: left;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.individual-result {
+  /* background-color: slategrey; */
+  width: 100%;
+  border: 3px solid slategrey;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right:30px;
+  margin-bottom: 2px;
+}
+.most-effecient {
+  
+  background-color: slategrey;
+  width: 100%;
+  border: 3px solid slategrey;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right:30px;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+.most-effecient h1 {
+  
+}
+.data-nav-wrapper h2 {
+  text-align: center;
+}
+.data-buttons-wrapper {
+  float: right;
+  margin-right: 200px;
+  margin-bottom: 0;
+}
